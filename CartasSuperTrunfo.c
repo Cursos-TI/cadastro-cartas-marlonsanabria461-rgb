@@ -44,7 +44,7 @@ int main() {
 
     float densidade_populacional = populacao / area;
 
-    float pib_per_capita = (long double)(pib / populacao);
+    long double pib_per_capita = (long double)(pib / populacao);
 
 
   // Área para exibição dos dados da cidade
@@ -67,7 +67,7 @@ int main() {
 
     printf("Densidade Populacional: %.2f habitantes/km²\n", densidade_populacional);
 
-    printf("PIB per Capita: %.2f bilhões\n\n", pib_per_capita);
+    printf("PIB per Capita: %.15ld bilhões\n\n", pib_per_capita);
 
    // Área para entrada de dados da segunda carta
 
@@ -119,7 +119,7 @@ int main() {
 
     printf("Densidade Populacional: %.2f habitantes/km²\n", densidade_populacional);
 
-    printf("PIB per Capita: %.2f bilhões\n", pib_per_capita);
+    printf("PIB per Capita: %.15ld bilhões\n", pib_per_capita);
 
 return 0;
 
