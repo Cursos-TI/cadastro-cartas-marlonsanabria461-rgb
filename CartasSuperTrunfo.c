@@ -131,9 +131,9 @@ int main() {
     printf("*******Comparação das Cartas*******\n\n");
 
     if (populacao1 > populacao2) {
-        printf("Carta 1 Venceu!\n");
+        printf("Carta 1 tem maior população!\n");
     } else {
-        printf("Carta 2 Venceu!\n");
+        printf("Carta 2 tem maior população!\n");
     }
     if (area1 > area2) {
         printf("Carta 1 tem maior área.\n");
